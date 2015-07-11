@@ -1,0 +1,10 @@
+language: node_js  
+node_js:  
+- 'node'
+deploy:
+  provider: heroku
+  api_key:
+    secure: g5+/IYNM6DKFQDrxBvD/jEF0pkC3OtplBa5LH+10CI6au056x07K8dZ53a91N0oMILtGDq6lXoT85kCT6J5RO1WjDMa3de5R/cogX5mbREOPqkJtek0HZDpNj8SBkC0pVLDUu7QRXt6r2q+LuzIC6BNGX8KNE3O9MK8Lx0IdreUOYYGjPu+8nXRFgdM7ubXQj4rZkO5xY6/YZ3HhHbgPFEBwT+DoPprScQNVJ0tZnh18YoXTRy5B5Iicv8l919rkA/C9nkK4nzg0tvn0Xos9JISH/+rGplhNTqfpglWro4w/UBuoNcub+bpj5bzUXyWQcPlhZzfRFtw4Zhdx6Tk7HHXcBMcm/mqDQbeqTEIiWm0Zi5i+JLT30NZC8UafOkddjMBHVmqljxNoq7k1fXeqd9i5mkghBBkBbeWtORiBEvfNCvyWtGoCSeuf/2Rk+SufgYYUVe9V89VpomCx7c3pB61HVlYRWNPrYLJ+lh+c/q85FoA2Eu+V9EsPOdhxTe3Rk5hHvzdRJVcE86Q7P5W1sa/d2oAzniWPAueL5E6uhVrFa69QMp75rp3kI8JiEmccdYcON+z9S2k+aR9AXquEojD/0ZOM638sQEsoLdcIUCiQNg7Mzzef7igwTnijtpRR6zY6uyCd0NZuxkuPVXCKBUsK/yCxTRc2PHRQo6swTDY=
+  app: flux-react-test
+  on:
+    repo: woodchucktest/flux-react-test
